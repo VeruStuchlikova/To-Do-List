@@ -10,18 +10,23 @@
 
 </head>
 <body>
-    <h1>Veronika's ToDo List</h1>
+    <header>
+      <h1>Veronika's ToDo List</h1>
+    </header>
+    <form>
 
-    <form type="text" class="todo_input">
-        <button class="todo_btn">
-            <i class="fas fa-plus-square"></i>
-        </button>                
+        <input type="text" class="todo_input">
+            <button class="todo_btn" type="submit">
+                <i class="fas fa-plus-square"></i>
+            </button>                
     </form>
-        <div class="todo_container">
-            <ul class="todo_list"></ul>
-        </div>
 
-        
+    <div class="todo_container">
+            <ul class="todo_list">
+            </ul>
+    </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
