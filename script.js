@@ -19,13 +19,13 @@ function addTodo(event) {
     todoDiv.appendChild(newTodo);
 
     const completedButton = document.createElement("button");
-    completedButton.innerHTML = '<i class="fas fa-check"></i>';
+    completedButton.innerText = 'DONE';
     completedButton.classList.add('completed_btn');
     todoDiv.appendChild(completedButton);
     
     const deleteButton = document.createElement("button");
-    completedButton.innerHTML = '<i class="fas fa-trash"></i>';
-    completedButton.classList.add('delete_btn');
+    deleteButton.innerText = 'DELETE';
+    deleteButton.classList.add('delete_btn');
     todoDiv.appendChild(deleteButton);
     
     todoList.appendChild(todoDiv);
